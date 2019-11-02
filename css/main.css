@@ -358,7 +358,13 @@ p>a {
 }
 
 @media screen and (min-device-width: 321px) and (max-device-width: 480px) {
+<<<<<<< HEAD
   body {}
+=======
+  body {
+  
+  }
+>>>>>>> 3a230d91c298507de68240045fea49383eba30da
 
   #homePage {
     flex-direction: column;
@@ -369,6 +375,7 @@ p>a {
     width: 100%;
   }
 
+<<<<<<< HEAD
   img.me {
     width: 345px;
     height: 439px;
@@ -409,3 +416,6 @@ p>a {
     background-size: cover;
   }
 }
+=======
+}
+>>>>>>> 3a230d91c298507de68240045fea49383eba30da

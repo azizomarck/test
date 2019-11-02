@@ -358,7 +358,7 @@ p>a {
 
 @media screen and (min-device-width: 321px) and (max-device-width: 480px) {
   body {
-    background: red;
+  
   }
 
   #homePage {

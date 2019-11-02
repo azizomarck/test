@@ -1,18 +1,98 @@
-<!DOCTYPE html>
 <html>
+
 <head>
-	<style>
-		body{
-			background:gray;
-		}
-		h1{
-			color:white;
-			background: navy;
-		}
-	</style>
-	<title>Demo</title>
+  <title>Aziz Omar</title>
+  <link rel="stylesheet" type="text/css" href="css/main.css">
+  <script src="js/main.js" defer></script>
+
+
+  <link href="https://fonts.googleapis.com/css?family=Cairo&display=swap" rel="stylesheet">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
+
 <body>
-<h1>Hello Word </h1>
+
+
+
+
+  <header>
+    <a href="#homePage">Home</a> <a href="#aboutMePage">About Me</a> <a href="#navToProject">Projects </a> <a
+      href="#cvPage"> Resume</a> <a href="#contactMePage"> Contact Me</a>
+  </header>
+
+
+  <main id="homePage" class="aboutme">
+    <img src="images/logo.png">
+    <aside class="right">
+      <h1 class="name"> Aziz Omar </h1>
+      <p class="title">Full Stack Developer</p>
+      <p><a href="#aboutMePage">About Me</a> | <a href="#navToProject">Projects </a> | <a href="#cvPage"> Resume</a> |
+        <a href="#contactMePage"> Contact Me</a>
+
+      </p>
+    </aside>
+  </main>
+  <section id="aboutMePage">
+    <!--<h1>About me </h1>-->
+    <img class="me" src="images/me.png" alt="photo of me ">
+    <p>
+      Hi I am Aziz !
+      I am a Software Developer currently studying my fourth semseter at Sheridan college in Oakville,Ontario, and also
+      I am doing a six-month web development bootcamp.
+      I am intrested in learning new modern technoglies and I have passion for understanding how things work
+      <!--
+      <br>
+      
+      Programming is a perfect fit for me because I love solving complex problems and coming up with solutions by
+      breaking the problem down into small components and presenting the outcome in a simple intuitive interface 
+-->
+
+      <br>
+      I am seeking a Co-Op position for winter 2020 to to apply my skills in real world projects
+
+    </p>
+
+  </section>
+  <section id="navToProject" class="projectsPage">
+    <i id="navProject"></i>
+    <section id="projects">
+      <main id="projectDetails">
+        <button id="backBtn" <i class="fa fa-arrow-left"></i> Back</button>
+        <div id="imgsContainer">
+          <img src="images/slotMachine.png" alt="">
+          <!-- Img navigaion-->
+          <div class="imgsNav">
+            <i class="fa fa-angle-left" id="prvImage"></i> <i class="fa fa-angle-right" id="nxtImage"></i>
+          </div>
+        </div>
+        <aside id="projectInfo">
+          <img src="" alt="">
+        </aside>
+
+      </main>
+
+
+
+    </section>
+  </section>
+
+  <section id="cvPage">
+
+    <iframe src="https://drive.google.com/file/d/1ByIBLWlh-iRUEViFv1YYVbq4dnRh28Z0/preview" width="640"
+      height="480"></iframe>
+    <a id="downloadCV" href="pdf/my_Re.pdf" download> Click to downlaod </a>
+  </section>
+
+  <section id="contactMePage">
+    <a href="https://github.com/azizck"> <i class="fa fa-github" "></i> </a>
+
+    <a href=" mailto:azizomarck@gmail.com"> <i class=" fa fa-envelope"></i> </a>
+
+    <a href="https://www.linkedin.com/in/azizck"> <i class="fa fa-linkedin-square"> </i></a>
+  </section>
+
+
 </body>
+
 </html>

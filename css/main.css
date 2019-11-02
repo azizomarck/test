@@ -22,8 +22,9 @@ header>a {
   color: #b36659;
 
 }
-header > a:hover{
- color: #c3897f;
+
+header>a:hover {
+  color: #c3897f;
 }
 
 #homePage {
@@ -94,8 +95,8 @@ aside>p {
 
 img.me {
   border-radius: 50%;
-  width: 201px;
-  height: 237px;
+  width: 200px;
+  height: 259px;
 }
 
 .projectsPage {
@@ -357,9 +358,7 @@ p>a {
 }
 
 @media screen and (min-device-width: 321px) and (max-device-width: 480px) {
-  body {
-    background: red;
-  }
+  body {}
 
   #homePage {
     flex-direction: column;
@@ -370,4 +369,43 @@ p>a {
     width: 100%;
   }
 
+  img.me {
+    width: 345px;
+    height: 439px;
+  }
+
+  #aboutMePage>p {
+    font-size: 2em;
+  }
+
+  .g-item {
+    width: 80%;
+  }
+
+  #projects {
+    width: 86%;
+  }
+
+  #projects>.g-item {
+    height: 349px;
+    width: 323px;
+  }
+
+  #projectDetails {
+    flex-direction: column;
+  }
+
+  #projectDetails>aside {
+    width: 80%;
+    font-size: 1.8em;
+  }
+
+  iframe {
+    height: 81%;
+    width: 80%;
+  }
+
+  #contactMePage {
+    background-size: cover;
+  }
 }

@@ -154,7 +154,7 @@ function retrieveData() {
 retrieveData();
 $(document).ready(function () {
   for (let i = 0; i < projects.length; i++) {
-    $("#projects").append(` <div id="${i}" class="g-item"> <img src="images/${projects[i].images.folderName}/${projects[i].images.logo}" >
+    $("#projects").append(` <div data-aos="zoom-in-down" id="${i}" class="g-item"> <img src="images/${projects[i].images.folderName}/${projects[i].images.logo}" >
   <p>${projects[i].title}<br><span class="techUsed">${projects[i].tools}</span></p> `);
   }
 

@@ -3,6 +3,7 @@
 <head>
   <title>Aziz Omar</title>
   <link rel="stylesheet" type="text/css" href="css/main.css">
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
   <script src="js/main.js" defer></script>
 
 
@@ -25,9 +26,9 @@
   <main id="homePage" class="aboutme">
     <img src="images/logo.png">
     <aside class="right">
-      <h1 class="name"> Aziz Omar </h1>
-      <p class="title">Full Stack Developer</p>
-      <p><a href="#aboutMePage">About Me</a> | <a href="#navToProject">Projects </a> | <a href="#cvPage"> Resume</a> |
+      <h1 data-aos="zoom-in-down" class="name"> Aziz Omar </h1>
+      <p data-aos="zoom-in-down" class="title">Full Stack Developer</p>
+      <p data-aos="zoom-in-down" ><a href="#aboutMePage">About Me</a> | <a href="#navToProject">Projects </a> | <a href="#cvPage"> Resume</a> |
         <a href="#contactMePage"> Contact Me</a>
 
       </p>
@@ -35,8 +36,8 @@
   </main>
   <section id="aboutMePage">
     <!--<h1>About me </h1>-->
-    <img class="me" src="images/test1.png" alt="photo of me ">
-    <p>
+    <img data-aos="zoom-in-down" class="me" src="images/test1.png" alt="photo of me ">
+    <p data-aos="zoom-in-down">
       Hi I am Aziz!
       I am a Software Developer currently studying my fourth semseter at Sheridan College in Oakville, Ontario. Also,
       I am doing a six-month web development bootcamp.
@@ -71,20 +72,23 @@
 
   <section id="cvPage">
 
-    <iframe src="https://drive.google.com/file/d/1ByIBLWlh-iRUEViFv1YYVbq4dnRh28Z0/preview" width="640"
+    <iframe data-aos="zoom-in-down" src="https://drive.google.com/file/d/1ByIBLWlh-iRUEViFv1YYVbq4dnRh28Z0/preview" width="640"
       height="480"></iframe>
-    <a id="downloadCV" href="pdf/my_Re.pdf" download> Click to downlaod </a>
+    <a data-aos="zoom-in-down" id="downloadCV" href="pdf/my_Re.pdf" download> Click to downlaod </a>
   </section>
 
   <section id="contactMePage">
-
-    <a href="https://github.com/azizck"> <i class="fa fa-github" "></i> </a>
-    <a href=" mailto:azizomarck@gmail.com"> <i class=" fa fa-envelope"></i> </a>
-    <a href="https://www.linkedin.com/in/azizomarck"> <i class="fa fa-linkedin-square"> </i></a>
+    <a data-aos="zoom-in-down href="https://github.com/azizck"> <i class="fa fa-github" "></i> </a>
+    <a data-aos="zoom-in-down href=" mailto:azizomarck@gmail.com"> <i class=" fa fa-envelope"></i> </a>
+    <a data-aos="zoom-in-down href="https://www.linkedin.com/in/azizomarck"> <i class="fa fa-linkedin-square"> </i></a>
 
   </section>
 
 
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init({ duration: 1200, })
+  </script>
 </body>
 
 </html>

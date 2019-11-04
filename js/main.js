@@ -13,7 +13,8 @@ let data = {
         deployment: "",
         code: "https://github.com/Azizck/TutoringService"
       },
-      description: "A web application providing tutoring service in subjects that are chosen by a tutor. A Tutor signs up for an account, add the subjects ,choose the preferred date and the price per hour and access the calendar to see the booked appointments Students sign up for an account, book an appointment and make payments on their preferred time and date. Students and Tutors credentials are encrypted in database using salted MD5"
+      description: "A web application providing tutoring service in subjects that are chosen by a tutor. A Tutor signs up for an account, adds the subjects ,chooses the preferred date and the price per hour and accesses the calendar to see the booked appointments Students sign up for an account, book an appointment and make payments on their preferred time and date. Students and Tutors credentials are encrypted in database using salted MD5."
+
     }, {
       title: "Cluz",
       tools: "JavaFX,CSS,Invasion",
@@ -27,7 +28,7 @@ let data = {
         deployment: "",
         code: "https://github.com/Azizck/PROG24178_CLUZ"
       },
-      description: "Clothing Managment System | •	Planed, designed and implemented the project working collaboratively with a team of three people •	The application works offline and is designed to be used by clothing warehouses or clothing stores •	Allows you to add clothing items and displays them in a well-designed interface, which allows for Inventory Searching and filtering •	Export inventory list to CSV file "
+      description: "Clothing Managment System | •	Planned, designed and implemented the project working collaboratively with a team of three people •	The application works offline and is designed to be used by clothing warehouses or clothing stores •	Allows you to add clothing items and displays them in a well-designed interface, which allows for Inventory Searching and filtering •	Export inventory list to CSV file."
     }
 
 
@@ -37,7 +38,7 @@ let data = {
       tools: "PHP,Javscript",
       images: {
         folderName: "slotMachine",
-        imgsName: ["logo.png", "f_img.jpg"],
+        imgsName: ["logo.png", "f_img.JPG"],
         logo: "logo.png"
       },
       isDeployed: true,
@@ -56,15 +57,15 @@ let data = {
       tools: "Javscript",
       images: {
         folderName: "chatBot",
-        imgsName: ["logo.jpg", "f_img.jpg", "s_img.jpg"],
-        logo: "logo.jpg"
+        imgsName: ["logo.JPG", "f_img.JPG", "s_img.JPG"],
+        logo: "logo.JPG"
       },
       isDeployed: true,
       url: {
         deployment: "http://omarazi.dev.fast.sheridanc.on.ca/HYF/",
         code: "https://github.com/Azizck/Chatbot"
       },
-      description: "•	A rule-based chatbot with intuitive  graphical user interface currently in progress •	Created an autocompletion feature that predicts the sentence  a user intends to enter after only a few characters have been typed •	Relies on API calls to do some tasks such as displaying the weather based on user location "
+      description: "•	A rule-based chatbot with intuitive  graphical user interface currently in progress •	Created an autocompletion feature that predicts the sentence  a user intends to enter after only a few characters have been typed •	Relies on API calls to do some tasks such as displaying the weather based on user location."
     }
 
     , {
@@ -80,7 +81,7 @@ let data = {
         deployment: "https://azizck.github.io/catchtheFly/",
         code: "https://github.com/Azizck/catchtheFly"
       },
-      description: "a simple game works in the browser. It consist's of two characters. The user and the fly. The user tries to catch the fly using the mouse and once the user gets close to the Fly, it runs away"
+      description: "a simple game works in the browser. It consist's of two characters. The user and the fly. The user tries to catch the fly using the mouse and once the user gets close to the Fly, it runs away."
     }, {
       title: "UI Data Structure",
       tools: "Javscript,C",
@@ -94,7 +95,7 @@ let data = {
         deployment: "https://azizck.github.io/",
         code: "https://github.com/Azizck/"
       },
-      description: "I am using HTML CSS and Javascript to visualize how data Structure works, I will cover, Stack,Queue,LinkedList,Trees"
+      description: "I am using Angular, and Javascript to visualize how data Structure works, I will cover, Stack,Queue,LinkedList, and Trees"
     }
   ]
 }

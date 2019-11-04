@@ -105,7 +105,7 @@ img.me {
   justify-content: center;
   align-items: center;
   background: white;
-  ;
+  overflow: auto;
 }
 
 #projects {
@@ -113,7 +113,6 @@ img.me {
   display: grid;
   display: flex;
   flex-direction: row;
-  margin-top: 111px;
   height: 80%;
   width: 64%;
   /*
@@ -150,7 +149,6 @@ img.me {
 
 .g-item>img {
   width: 170px;
-  height: 148px;
   margin: 10px 0px;
 
 }
@@ -158,6 +156,10 @@ img.me {
 .techUsed {
   font-size: 0.5em;
   margin: -11px;
+  display: block;
+  width: 100%;
+  margin: auto;
+  text-align: center;
 }
 
 button {
@@ -358,13 +360,7 @@ p>a {
 }
 
 @media screen and (min-device-width: 321px) and (max-device-width: 480px) {
-<<<<<<< HEAD
   body {}
-=======
-  body {
-  
-  }
->>>>>>> 3a230d91c298507de68240045fea49383eba30da
 
   #homePage {
     flex-direction: column;
@@ -375,7 +371,6 @@ p>a {
     width: 100%;
   }
 
-<<<<<<< HEAD
   img.me {
     width: 345px;
     height: 439px;
@@ -416,6 +411,12 @@ p>a {
     background-size: cover;
   }
 }
-=======
+
+@media (orientation: landscape) only {
+  body{
+    background: red;
+  }
+  #projects {
+    width: 100%;
+  }
 }
->>>>>>> 3a230d91c298507de68240045fea49383eba30da

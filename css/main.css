@@ -6,6 +6,8 @@ body {
 }
 
 header {
+  position: relative;
+  display: flex;
   position: fixed;
   text-align: right;
   width: 98%;
@@ -20,11 +22,19 @@ header {
 header>a {
   margin: 10px;
   color: #b36659;
-
 }
 
 header>a:hover {
   color: #c3897f;
+  border-bottom: 2px solid #a73b3b;
+
+}
+.logoNav{
+  display: none;
+}
+h1{
+  font-size: 6em;
+  margin:0px;
 }
 
 #homePage {
@@ -76,7 +86,6 @@ aside>p {
 
 #aboutMePage {
   padding-top: 10px;
-  height: 100%;
   background: #ffede7;
   padding: 10px;
   display: flex;
@@ -87,7 +96,6 @@ aside>p {
 
 #aboutMePage>h1 {
   margin: 0px;
-  margin-top: 58px;
   font-size: 6em;
   color: #343434;
   text-align: center;
@@ -100,12 +108,11 @@ img.me {
 }
 
 .projectsPage {
-  height: 100%;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   background: white;
-  overflow: auto;
 }
 
 #projects {
@@ -358,10 +365,24 @@ p>a {
 #contactMePage>a>i:hover {
   color: darkred;
 }
+#skills > i{
+  font-size: 8em;
+  padding: 5px;
+  margin: 60px;
+  color: #5f5858;
+}
+#skills{
+  padding: 0px 7em;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
 
 @media screen and (min-device-width: 321px) and (max-device-width: 480px) {
   body {}
 
+  
   #homePage {
     flex-direction: column;
   }
@@ -369,6 +390,14 @@ p>a {
   main {
     height: 100%;
     width: 100%;
+  }
+
+  header#nav {
+    display: flex !important;
+  }
+
+  header {
+    height: 4em;
   }
 
   img.me {
@@ -410,13 +439,33 @@ p>a {
   #contactMePage {
     background-size: cover;
   }
-}
 
-@media (orientation: landscape) only {
-  body{
-    background: red;
+  .tog {
+    height: 60%;
+    opacity: 0.84;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 4em;
   }
-  #projects {
-    width: 100%;
+
+  .menuIcon {
+    font-size: 81px !important;
+    position: absolute;
+    top: 18px;
+    right: 23px;
   }
+
+  .menuIcon::before {
+    color: gray;
+  }
+
+  .logoNav {
+    height: auto;
+    width: 4em;
+    margin:6px;
+      display: inline-flex !important;
+  }
+
+ 
 }

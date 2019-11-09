@@ -37,7 +37,7 @@ main();
 
 let img = document.getElementsByTagName("img")[0];
 let header = document.getElementsByTagName("header")[0];
-  header.style.display = "none";
+header.style.display = "none";
 
 document.onscroll = function () {
   if (document.getElementsByClassName("aboutme")[0].getClientRects()[0].y < 0) {
@@ -150,6 +150,8 @@ function toggleDeatils() {
   }
 }
 
+$("#nav").toggleClass("tag");
+
 function swapImages() {
   // track index number
   let x = -1;
@@ -179,3 +181,56 @@ $("#backBtn").click(function () {
   toggleDeatils();
   toggleProjects();
 })
+
+// detect if user's device is a phone
+if ($(".logoNav").css('display') == 'flex') {
+  $("#nav").removeClass("tog");
+  $("#nav>a").hide();
+  $(".menuIcon").click(function () {
+    $("#nav").toggleClass("tog");
+    $("#nav>a").toggle('slow');
+
+  });
+} else {
+
+  $("#nav>a").show();
+  $(".menuIcon").hide();
+}
+
+$("#nav > a ").click(
+  function () {
+    setTimeout(scroll, 10);
+  }
+);
+
+
+function scroll() {
+  return function () {
+    window.scrollBy(0, -40);
+  }();
+}
+
+
+
+{/* <a href="#homePage">Home</a> <a href="#aboutMePage">About Me</a> <a href="#navToProject">Projects </a> <a */}
+// href="#cvPage"> Resume</a> <a href="#contactMePage"> Contact Me</a>
+
+$( "a:contains('Home')" ).click(function(){
+$('html, body').animate( {scrollTop: $("#homePage").offset().top -50} , 2000);
+});
+
+$( "a:contains('About Me')" ).click(function(){
+$('html, body').animate( {scrollTop: $("#aboutMePage").offset().top -50} , 2000);
+});
+
+$( "a:contains('Projects')" ).click(function(){
+$('html, body').animate( {scrollTop: $("#navToProject").offset().top -50} , 2000);
+});
+
+$( "a:contains('Resume')" ).click(function(){
+$('html, body').animate( {scrollTop: $("#cvPage").offset().top -50} , 2000);
+});
+
+$( "a:contains('contactMePage')" ).click(function(){
+$('html, body').animate( {scrollTop: $("#contactMePage").offset().top -50} , 2000);
+});

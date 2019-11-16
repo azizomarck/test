@@ -35,7 +35,7 @@ main();
 
 
 
-let img = document.getElementsByTagName("img")[0];
+let img = document.getElementsByTagName("img")[1];
 let header = document.getElementsByTagName("header")[0];
 header.style.display = "none";
 
@@ -50,6 +50,7 @@ document.onscroll = function () {
 document.onmousemove = function (event) {
   let a = Math.random() * 100;
   img.style.transform = `rotate(${a}deg)`;
+
 };
 
 class Project {
@@ -234,3 +235,8 @@ $('html, body').animate( {scrollTop: $("#cvPage").offset().top -50} , 2000);
 $( "a:contains('contactMePage')" ).click(function(){
 $('html, body').animate( {scrollTop: $("#contactMePage").offset().top -50} , 2000);
 });
+
+
+function myFunction(x) {
+  x.classList.toggle("change");
+}

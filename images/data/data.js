@@ -39,10 +39,10 @@
 	isDeployed:true,
 	url:{deployment:"https://azizck.github.io/catchtheFly/",code:"https://github.com/Azizck/catchtheFly"}, description:"a simple game works in the browser. It consist's of two characters. The user and the fly. The user tries to catch the fly using the mouse and once the user gets close to the Fly, it runs away"}
  ,{
-	title:"UI Data Structure",
-	tools:"Javscript,C",
-	images:{folderName:"dataStructure", imgsName:["f_img.jpg"],logo:"logo.png"},
-	isDeployed:false,
-	url:{deployment:"https://azizck.github.io/",code:"https://github.com/Azizck/"}, description:"I am using HTML CSS and Javascript to visualize how data Structure works, I will cover, Stack,Queue,LinkedList,Trees"}
+	title:"HangMan",
+	tools:"PHP,MYSQL,Javscript",
+	images:{folderName:"hangMan", imgsName:["f_img.jpg"],logo:"logo.jpg"},
+	isDeployed:true,
+	url:{deployment:"http://omarazi.dev.fast.sheridanc.on.ca/hangman/main.php",code:"https://github.com/Azizck/HangMan"}, description:"Dynamic Hangman game retrieves data, Country names, from MySQL database. "}
 ]}
 

@@ -40,7 +40,7 @@
       "deployment": "http://omarazi.dev.fast.sheridanc.on.ca/inClass/",
       "code": "https://github.com/Azizck/SlotMachine"
     },
-    "description": "•\tPlanned, designed and implemented the project working collaboratively with a team of three people •\tThe application works offline and is designed to be used by clothing warehouses or clothing stores •\tAllows you to add clothing items and displays them in a well-designed interface, which allows for Inventory Searching and filtering •\tExport inventory list to CSV lfile 3"
+    "description": "•\tA Slot Machine that works in the browser, The machine has three reels, each has 7 pictures of 7 different fruits. The reels spin for few seconds and then they stop, if two or three fruits in different reels were the same, the user wins, and their score would be updated and stored in the session " 
   }, {
     "title": "ChatBot",
     "tools": "Javscript",
@@ -70,18 +70,18 @@
     },
     "description": "a simple game works in the browser. It consist's of two characters. The user and the fly. The user tries to catch the fly using the mouse and once the user gets close to the Fly, it runs away."
   }, {
-    "title": "UI Data Structure",
-    "tools": "Javscript,C",
+    "title": "HangMan",
+    "tools": "Javscript,PHP,MySQL",
     "images": {
-      "folderName": "dataStructure",
-      "imgsName": ["logo.png", "f_img.jpg"],
-      "logo": "logo.png"
+      "folderName": "hangMan",
+      "imgsName": ["logo.JPG", "f_img.JPG"],
+      "logo": "logo.JPG"
     },
-    "isDeployed": false,
+    "isDeployed": true,
     "url": {
-      "deployment": "https://azizck.github.io/",
-      "code": "https://github.com/Azizck/"
+      "deployment": "http://omarazi.dev.fast.sheridanc.on.ca/hangman/main.php",
+      "code": "https://github.com/Azizck/HangMan"
     },
-    "description": "I am using Angular, and Javascript to visualize how data Structure works, I will cover, Stack,Queue,LinkedList, and Trees"
+    "description": "Dynamic Hangman game retrieves data, Country names, from MySQL database."
   }]
 }

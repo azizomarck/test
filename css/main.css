@@ -282,7 +282,7 @@ a {
 p>a {
   color: #333232e3;
   font-weight: bold;
-  font-size: 0.5em;
+  font-size: 0.9em;
   padding: 12px;
   font-family: 'Rajdhani', sans-serif;
   background: radial-gradient(#f14e4e, transparent);
@@ -290,8 +290,10 @@ p>a {
   margin: 4px;
   transition: all .4s ease;
 }
-p>a:hover{
-  font-size: 2em;;
+
+p>a:hover {
+  background: radial-gradient(#b45e5c, transparent);
+  font-size: 2em;
   margin: 10px;
 }
 
@@ -400,6 +402,9 @@ p>a:hover{
 @media screen and (min-device-width: 321px) and (max-device-width: 480px) {
   body {}
 
+  p>a {
+    display: inline-block;
+  }
 
   #homePage {
     flex-direction: column;
@@ -491,24 +496,36 @@ p>a:hover{
     display: inline-block;
     cursor: pointer;
   }
-  
-  .bar1, .bar2, .bar3 {
+
+  .bar1,
+  .bar2,
+  .bar3 {
     width: 116px;
     height: 9px;
     background-color: #333;
-    margin: 6px 0;
+    margin: 16px 16;
     transition: 0.4s;
   }
-  
+
   .change .bar1 {
     -webkit-transform: rotate(-45deg) translate(-9px, 6px);
-    transform: rotate(-45deg) translate(-9px, 6px);
+    transform: rotate(-45deg) translate(-27px, 17px);
   }
-  
-  .change .bar2 {opacity: 0;}
-  
+
+  .change .bar2 {
+    opacity: 0;
+  }
+
   .change .bar3 {
     -webkit-transform: rotate(45deg) translate(-8px, -8px);
     transform: rotate(45deg) translate(-8px, -8px);
   }
+
+
+    #experince {
+
+      width: 86% !important;
+
+    }
+  
 }

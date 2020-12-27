@@ -31,7 +31,11 @@ async function main() {
 
 }
 
-main();
+setTimeout(()=>{
+
+  main();
+},2000)
+
 
 
 
@@ -218,23 +222,30 @@ function scroll() {
 
 $( "a:contains('Home')" ).click(function(){
 $('html, body').animate( {scrollTop: $("#homePage").offset().top -50} , 2000);
+
 });
+
+$( ".logoNav" ).click(function(){
+$('html, body').animate( {scrollTop: $("#homePage").offset().top -50} , 2000);
+});
+
 
 $( "a:contains('About Me')" ).click(function(){
 $('html, body').animate( {scrollTop: $("#aboutMePage").offset().top -50} , 2000);
 });
 
 $( "a:contains('Projects')" ).click(function(){
-$('html, body').animate( {scrollTop: $("#navToProject").offset().top -50} , 2000);
+$('html, body').animate( {scrollTop: $("#navToProject").offset().top + 50} , 2000);
 });
 
 $( "a:contains('Resume')" ).click(function(){
 $('html, body').animate( {scrollTop: $("#cvPage").offset().top -50} , 2000);
 });
 
-$( "a:contains('contactMePage')" ).click(function(){
+$( "a:contains('Contact Me')" ).click(function(){
 $('html, body').animate( {scrollTop: $("#contactMePage").offset().top -50} , 2000);
 });
+
 
 
 function myFunction(x) {

@@ -15,7 +15,75 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="stylesheet"
     href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
-    <link href="https://fonts.googleapis.com/css?family=Rajdhani&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Rajdhani&display=swap" rel="stylesheet">
+  <style>
+    #experince {
+
+      display: flex;
+      justify-content: center;
+      /* border-bottom: 1px solid gray;
+  border-top: 1px solid gray; */
+      background-color: white;
+      box-shadow: -1px 8px 15px 4px #e8e1e1;
+      padding: 2em;
+      border-radius: 10px;
+      width: 37%;
+
+    }
+
+    .item>.company-name img {
+      width: 6em;
+    }
+
+    .item .company-name div {}
+
+    .item>.company-name>div {
+      margin-top: -1em;
+
+    }
+
+    .item .company-name>div>span {}
+
+    .company-name>img {
+      margin-left: 1em;
+      margin-top: 1.3em;
+      height: 3em;
+      width: 10em;
+
+
+    }
+
+    .job-desc {
+      text-align: left;
+    }
+
+    .job-desc>.date {
+      position: relative;
+      font-style: italic;
+    }
+
+    .date>span {
+      position: absolute;
+      right: 0px;
+    }
+
+    .job-desc>.date {}
+
+    .tasks {
+      margin-left: -2.4em !important;
+    }
+
+    li {
+      color: black;
+      list-style-type: none;
+    }
+
+    li:before {
+      content: '\2022';
+      color: #905757;
+      padding-right: 0.5em;
+    }
+  </style>
 </head>
 
 <body>
@@ -31,9 +99,9 @@
       <div class="bar2"></div>
       <div class="bar3"></div>
     </div>
-    
-    <a href="#homePage">Home</a> <a href="#aboutMePage">About Me</a> <a href="#navToProject">Projects </a> <a
-      href="#cvPage"> Resume</a> <a href="#contactMePage"> Contact Me</a>
+
+    <a href="#homePage">Home</a> <a href="#aboutMePage">About Me</a> <a href="#navToProject">Experince & Projects </a>
+    <a href="#cvPage"> Resume</a> <a href="#contactMePage"> Contact Me</a>
   </header>
 
 
@@ -42,8 +110,8 @@
     <aside class="right">
       <h1 data-aos="zoom-in-down" class="name"> Aziz Omar </h1>
       <p data-aos="zoom-in-down" class="title">Full Stack Developer</p>
-      <p data-aos="zoom-in-down"><a href="#aboutMePage">About Me</a>   <a href="#navToProject">Projects </a>  <a
-          href="#cvPage"> Resume</a> 
+      <p data-aos="zoom-in-down"><a href="#aboutMePage">About Me</a> <a href="#navToProject">Projects </a> <a
+          href="#cvPage"> Resume</a>
         <a href="#contactMePage"> Contact Me</a>
 
       </p>
@@ -54,36 +122,101 @@
     <img data-aos="zoom-in-down" class="me" src="images/test1.png" alt="photo of me ">
     <p data-aos="zoom-in-down">
       Hi I am Aziz!
-      I am a Software Developer currently studying my fourth semester at Sheridan College in Oakville, Ontario. Also,
-      I am doing a six-month web development bootcamp.
+      I am a Software Developer currently studying my fourth semester at Sheridan College in Oakville, Ontario.
       I am interested in learning new modern techbologies and I have passion for understanding how things work.
       <br>
-      I am seeking a co-op position for winter 2020 to apply my skills in real world projects.
     </p>
     <h1>Skills</h1>
     <div id="skills">
 
-      <i class="devicon-vim-plain"></i>
-        <i class="devicon-javascript-plain"></i>
-        <i class="devicon-java-plain"></i>
-        <i class="devicon-c-plain"></i>
-        <i class="devicon-php-plain"></i>
+      <i data-aos="zoom-in-down" class="devicon-vim-plain"></i>
+      <i data-aos="zoom-in-down" class="devicon-javascript-plain"></i>
+      <i data-aos="zoom-in-down" class="devicon-java-plain"></i>
+      <i data-aos="zoom-in-down" class="devicon-c-plain"></i>
+      <i data-aos="zoom-in-down" class="devicon-php-plain"></i>
 
-      <i class="devicon-nodejs-plain"></i>
-      <i class="devicon-typescript-plain"></i>
+      <i data-aos="zoom-in-down" class="devicon-nodejs-plain"></i>
+      <i data-aos="zoom-in-down" class="devicon-typescript-plain"></i>
 
-        <i class="devicon-jquery-plain"></i>
-        <i class="devicon-react-original"></i>
-      <i class="devicon-angularjs-plain"></i>
-      <i class="devicon-html5-plain-wordmark"></i>
-      <i class="devicon-css3-plain"></i>
-
+      <i data-aos="zoom-in-down" class="devicon-jquery-plain"></i>
+      <i data-aos="zoom-in-down" class="devicon-react-original"></i>
+      <i data-aos="zoom-in-down" class="devicon-angularjs-plain"></i>
+      <i data-aos="zoom-in-down" class="devicon-html5-plain-wordmark"></i>
+      <i data-aos="zoom-in-down" class="devicon-css3-plain"></i>
+      <i data-aos="zoom-in-down" class="devicon-bootstrap-plain"></i>
+      <i data-aos="zoom-in-down" class="devicon-csharp-plain"></i>
     </div>
+
+
+<!-- Start of Async Drift Code -->
+<script>
+  "use strict";
+  
+  !function() {
+    var t = window.driftt = window.drift = window.driftt || [];
+    if (!t.init) {
+      if (t.invoked) return void (window.console && console.error && console.error("Drift snippet included twice."));
+      t.invoked = !0, t.methods = [ "identify", "config", "track", "reset", "debug", "show", "ping", "page", "hide", "off", "on" ], 
+      t.factory = function(e) {
+        return function() {
+          var n = Array.prototype.slice.call(arguments);
+          return n.unshift(e), t.push(n), t;
+        };
+      }, t.methods.forEach(function(e) {
+        t[e] = t.factory(e);
+      }), t.load = function(t) {
+        var e = 3e5, n = Math.ceil(new Date() / e) * e, o = document.createElement("script");
+        o.type = "text/javascript", o.async = !0, o.crossorigin = "anonymous", o.src = "https://js.driftt.com/include/" + n + "/" + t + ".js";
+        var i = document.getElementsByTagName("script")[0];
+        i.parentNode.insertBefore(o, i);
+      };
+    }
+  }();
+  drift.SNIPPET_VERSION = '0.3.1';
+  drift.load('ibkstirgy369');
+  </script>
+  <!-- End of Async Drift Code -->
+
+
 
     <i id="navToProject"></i>
   </section>
   <section class="projectsPage">
-    <h1 >Projects</h1>
+    <h1>Work Experince</h1>
+    <hr>
+    <div id="experince" data-aos="zoom-in-down">
+
+      <section class="item">
+        <div class="company-name">
+          <h2>Software Developer Co-op </h2>
+          <a href="https://www.officetrax.com/" target="_blank"><div> <img src="https://www.officetrax.com//Images/Branding/Officetrax-Dark-Logo.png" alt="Officetrax Logo"></a>
+          </div>
+
+
+        </div>
+        <div class="job-desc">
+          <b>1 Year</b>
+          <p class="date"> Sep 2020 - Dec 2020 (Co-Op)<span> Brampton, Ontario</span> </p>
+          <p class="date"> May 2020- Sep 2020 (Part-Time) <span> Brampton, Ontario</span> </p>
+          <p class="date"> Dec 2019 - May 2020 (Co-Op)<span> Brampton, Ontario</span> </p>
+
+
+          <ul class="tasks">
+            <li class="task">Designed and developed software using ASP.NET</li>
+            <li class="task">Modified, and fixed bugs in multiple large software</li>
+            <li class="task">collaborated with QA team for testing procedures</li>
+          </ul>
+
+
+        </div>
+      </section>
+    </div>
+    <br>
+    <br>
+    <br>
+    <hr>
+
+    <h1> Projects</h1>
     <section id="projects">
       <main id="projectDetails">
         <button id="backBtn" <i class="fa fa-arrow-left"></i> Back</button>
@@ -107,14 +240,18 @@
 
   <section id="cvPage">
 
-    <iframe data-aos="zoom-in-down" src="https://drive.google.com/file/d/1tA_cA-fy4JU55x5FxiOW6A86P03-maNg/preview" width="640" height="480">
-    </iframe> <a  id="downloadCV" href="pdf/my_Re.pdf" download> Click to downlaod </a>
+    <iframe data-aos="zoom-in-down" src="https://drive.google.com/file/d/1tA_cA-fy4JU55x5FxiOW6A86P03-maNg/preview"
+      width="640" height="480">
+    </iframe> <a id="downloadCV" href="pdf/my_Re.pdf" download> Click to downlaod </a>
   </section>
 
   <section id="contactMePage">
     <a data-aos="zoom-in-down" target="_blank" href="https://github.com/azizck"> <i class="fa fa-github" "></i> </a>
-    <a data-aos=" zoom-in-down" target="_blank" href=" mailto:azizomarck@gmail.com"> <i class=" fa fa-envelope"></i> </a>
-    <a data-aos="zoom-in-down" target="_blank" href="https://www.linkedin.com/in/azizomarck"> <i class="fa fa-linkedin-square"> </i></a> 
+    <a data-aos=" zoom-in-down" target="_blank" href=" mailto:azizomarck@gmail.com"> <i class=" fa fa-envelope"></i>
+    </a>
+    <a data-aos="zoom-in-down" target="_blank" href="https://www.linkedin.com/in/azizomarck"> <i
+        class="fa fa-linkedin-square"> </i></a>
+
   </section>
 
 
@@ -122,8 +259,12 @@
   <script>
     AOS.init({
       duration: 1200,
+
     })
   </script>
+  <footer>
+
+  </footer>
 </body>
 
 </html>

@@ -74,8 +74,8 @@
     "tools": "Javscript,PHP,MySQL",
     "images": {
       "folderName": "hangMan",
-      "imgsName": ["logo.JPG", "f_img.JPG"],
-      "logo": "logo.JPG"
+      "imgsName": ["logo.jpg", "f_img.jpg"],
+      "logo": "logo.jpg"
     },
     "isDeployed": true,
     "url": {
